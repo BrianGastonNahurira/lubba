@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-color: maroon;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.top-header{
+    font-weight: bolder;
+    font-style: italic;
+    color: chartreuse;
+}
+.links{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    margin-top: 20px;
+}
+.social-icons i{
+    margin-top: 20px;
+}
+.links a:hover{
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.slider-images {
+    overflow: hidden;
+}
+.slider-images figure{
+    position: relative;
+    width: 500%;
+    size: 755*755px;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+@keyframes slider{
+    12.5%{
+        margin-right: -100%;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    37.5%{
+        margin-left: -200%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    62.5%{
+        margin-left: -300%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    87.5%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+.slider-images figure img{
+    width: 20%;
+    float: left;
+}
+
+.back-ground{
+    background-image: url(images/5.jpg);
+    background-color: red;
+    text-align: center;
+    border: 3px solid blue;
+    background-color: cornsilk;
+    border: 3px white;
+   padding: 20px 100px 20px 100px; 
+}
+.back-ground-inside{
+    border: 3px solid blue;
+    background-color: red;
+    color: black;
+    padding: 20px;
+}
+.back-ground h1{
+    color: chartreuse;
+
+}
+.back-ground h3{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.vission-mission-corevalues{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 75%;
+    margin: 20px auto;
+    width: 75%;
+    padding: 10px;
+}
+.sub{
+    margin: 20px;
+    padding: 10px;
+    flex: 10px;
+    text-align: center;
+    height: 200px;
+    border-radius: 39px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 73px #696969,
+    -20px -20px 73px #ffffff;
+}
+.vission p, .mission p,.core-values p{
+    padding: 20px;
+}
+
+
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.my-progs{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    
+}
+.progr{
+    color: black;
+}
+.progr span{
+    color: red;
+}
+
+.sub-prgrams{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    flex: 10px;
+    text-align: center;
+    height: 200px;
+    border-radius: 39px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 73px #696969, uv
+    -20px -20px 73px #ffffff;
+}
+.sub{
+    margin: 10px;
+     
+     flex: 10px;
+     text-align: center;
+     height: 200px;
+     border-radius: 39px;
+     background: #e0e0e0;
+     box-shadow:  20px 20px 73px #696969,
+     -20px -20px 73px #ffffff;
+}
+
+
+
+
+
